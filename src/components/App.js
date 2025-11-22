@@ -15,7 +15,7 @@ const App = () => {
 
     try {
       const response = await fetch(
-        `http://www.omdbapi.com/?apikey=99eb9fd1&s=${movieName}`
+        `https://www.omdbapi.com/?apikey=99eb9fd1&s=${movieName}`
       );
 
       if (!response.ok) {
